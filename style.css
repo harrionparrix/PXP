@@ -1,0 +1,161 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+.body{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.heading, .headingf {
+    font-family: "Montserrat",sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+#header-first
+{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #c781e7f5 100%);
+}
+#home{
+    background-color: #A9C9FF;
+}
+#top-interviews{
+    text-decoration: none;
+}
+#features{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #c781e7f5 100%);
+}
+#features-2{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #c781e7f5 100%);
+}
+a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: pink;
+  }
+#card-image{
+    background-color: #A9C9FF;
+}
+#dspace{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #c781e7f5 100%);
+}
+#contact-us{
+    background-color: #A9C9FF;
+}
+
+@media screen and (max-width: 480px){
+    html{
+        justify-content: center;
+    }
+    
+    #navbarNavDropdown{
+        justify-content: flex-start !important;
+        padding: 1rem;
+    }
+  #logo-3{
+      display: none;
+  }
+  #card-image  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   #dspace-coming{
+       display: none;
+   }
+   #dspace{
+    background-color: pink;
+    text-align: center;
+}
+}
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    html{
+        justify-content: center;
+    }
+    
+    #navbarNavDropdown{
+        justify-content: flex-start !important;
+        padding: 1rem;
+    }
+  #logo-3{
+      display: none;
+  }
+  #card-image  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   #dspace-coming{
+       display: none;
+   }
+   #dspace{
+    background-color: pink;
+    text-align: center;
+}
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  
+    html{
+        justify-content: center;
+    }
+    
+    #navbarNavDropdown{
+        justify-content: flex-start !important;
+        padding: 1rem;
+    }
+  #logo-3{
+      display: none;
+  }
+  #card-image  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   #dspace-coming{
+       display: none;
+   }
+   #dspace{
+    background-color: pink;
+    text-align: center;
+}
+}
+
+ @media screen and (min-width: 1025px) and (max-width: 1280px){
+    html{
+        justify-content: center;
+    }
+    
+    #navbarNavDropdown{
+        justify-content: flex-start !important;
+        padding: 1rem;
+    }
+  #logo-3{
+      display: none;
+  }
+  #card-image  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   #dspace-coming{
+       display: none;
+   }
+   #dspace{
+    background-color: pink;
+    text-align: center;
+}
+
+ }
+  
